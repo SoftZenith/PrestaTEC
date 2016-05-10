@@ -7,10 +7,62 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="com.zenit.bryan.prestatec.MainActivity">
+    tools:context="com.zenit.bryan.prestatec.MainActivity"
+    android:background="#408DD2">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!" />
+    <Button
+        android:layout_width="160dp"
+        android:layout_height="160dp"
+        android:text="Prestamos"
+        android:textSize="20dp"
+        android:id="@+id/btnPrestamos"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="20dp" />
+
+    <Button
+        android:layout_width="160dp"
+        android:layout_height="160dp"
+        android:text="Contactos"
+        android:textSize="20dp"
+        android:id="@+id/btnContactos"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="20dp" />
+
+    <Button
+        android:layout_width="160dp"
+        android:layout_height="160dp"
+        android:text="Configuración"
+        android:textSize="17dp"
+        android:id="@+id/btnConfiguracion"
+        android:layout_below="@+id/btnPrestamos"
+        android:layout_alignLeft="@+id/btnPrestamos"
+        android:layout_alignStart="@+id/btnPrestamos"
+        android:layout_marginTop="20dp" />
+
+    <Button
+        android:layout_width="160dp"
+        android:layout_height="160dp"
+        android:text="Acerca de"
+        android:textSize="20dp"
+        android:id="@+id/btnAcerca"
+        android:layout_alignTop="@+id/btnConfiguracion"
+        android:layout_alignLeft="@+id/btnContactos"
+        android:layout_alignStart="@+id/btnContactos" />
+
+    <Button
+        android:layout_width="350dp"
+        android:layout_height="70dp"
+        android:text="Salir"
+        android:textSize="20dp"
+        android:id="@+id/btnSalir"
+        android:layout_below="@+id/btnConfiguracion"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="20dp" />
+
 </RelativeLayout>
