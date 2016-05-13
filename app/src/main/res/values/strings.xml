@@ -1,3 +1,33 @@
 <resources>
     <string name="app_name">PrestaTEC</string>
+    <string name="action_settings">Settings</string>
+    <string name="mnPrincipal">Menú</string>
+    <string name="prestamo">Préstamos</string>
+    <string name="contacto">Contactos</string>
+    <string name="configuracion">Configuración</string>
+    <string name="creditos">Acerca de</string>
+    <string name="title_activity_prestamos">Prestamos</string>
+    <string name="salir">Salir</string>
+    <string name="prestatario">Prestatario</string>
+    <string name="tipo">Tipo</string>
+    <string name="especificacion">Especificación</string>
+    <string name="observacion">Observación</string>
+    <string name="entregado">Entregado</string>
+    <string name="fechaP">Fecha Devolución</string>
+    <string name="title_activity_tipos">Tipos</string>
+    <string name="agregar">Agregar</string>
+    <string name="eliminar">Eliminar</string>
+    <string name="modificar">modificar</string>
+    <string name="title_activity_configuracion">Configuracion</string>
+    <string name="configuraciones">Configuraciones</string>
+    <string name="catalogo">Catálogo</string>
+    <string name="relaciones">Relaciones</string>
+    <string name="title_activity_contactos">Contactos</string>
+    <string name="nombre">Nombre</string>
+    <string name="relacion">Relación</string>
+    <string name="telefono">Teléfono</string>
+    <string name="title_activity_contacto_v">ContactoV</string>
+    <string name="title_activity_vista_prestamos">VistaPrestamos</string>
+    <string name="title_activity_tab_host">TabHostActivity</string>
+
 </resources>
