@@ -16,7 +16,6 @@
             </intent-filter>
         </activity>
         <activity android:name=".vistaPrestamos" />
-        <activity android:name=".ContactoV" />
         <activity android:name=".Configuracion"></activity>
     </application>
 

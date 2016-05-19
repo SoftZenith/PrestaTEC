@@ -145,7 +145,7 @@ public class vistaPrestamos extends AppCompatActivity {
 
     private void llamarRegistro(String s)
     {
-        Intent actividad=new Intent(this,Prestamos.class);
+        Intent actividad = new Intent(this,Prestamos.class);
         actividad.putExtra("actividad",s);
         startActivityForResult(actividad,0);
     }
