@@ -1,12 +1,12 @@
 package com.zenit.bryan.prestatec;
 
-import android.app.Activity;
 import android.app.AlertDialog;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteException;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.view.ContextMenu;
 import android.view.Menu;
 import android.view.MenuInflater;
@@ -20,11 +20,13 @@ import android.widget.Toast;
 import java.util.ArrayList;
 
 
-public class ContactoV extends Activity {
+public class ContactoV extends AppCompatActivity {
+
     ImageButton btnAgregar;
     ListView listContactos;
     ArrayList<ContactoP> lista;
     baseDatos bd;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
