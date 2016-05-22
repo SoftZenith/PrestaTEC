@@ -7,7 +7,8 @@
         android:layout_width="62dp"
         android:layout_height="85dp"
         android:id="@+id/imageView2"
-        android:src="@drawable/dinero" />
+        android:src="@drawable/money"
+        android:layout_margin="5dp"/>
 
     <LinearLayout
         android:orientation="vertical"
@@ -19,7 +20,8 @@
             android:layout_height="wrap_content"
             android:textAppearance="?android:attr/textAppearanceLarge"
             android:text="Large Text"
-            android:id="@+id/xlblPersonaI" />
+            android:id="@+id/xlblPersonaI"
+            android:layout_marginTop="10dp"/>
 
         <TextView
             android:layout_width="wrap_content"

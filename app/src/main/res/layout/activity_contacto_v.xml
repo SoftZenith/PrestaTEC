@@ -23,7 +23,8 @@
                 android:layout_height="50dp"
                 android:id="@+id/xbtnIAgregar"
                 android:layout_gravity="right"
-                android:background="@drawable/add" />
+                android:background="@drawable/agregar_"
+                android:layout_margin="10dp"/>
         </LinearLayout>
 
     </LinearLayout>

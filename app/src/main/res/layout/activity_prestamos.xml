@@ -7,7 +7,7 @@
     android:paddingBottom="@dimen/activity_vertical_margin"
     android:orientation="vertical"
     android:layout_gravity="center"
-    tools:context="mx.edu.ittepic.prestamoproyecto.Prestamos"
+    tools:context="com.zenit.bryan.prestatec.Prestamos"
     android:weightSum="1">
 
     <ScrollView
@@ -19,26 +19,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
 
-            <TableRow
-                android:layout_width="fill_parent"
-                android:layout_height="fill_parent">
 
-                <ImageButton
-                    android:layout_width="130dp"
-                    android:layout_height="40dp"
-                    android:id="@+id/xbtnCancelarP"
-                    android:background="@drawable/btncancelar"
-                    android:layout_column="0"
-                    android:layout_row="0" />
-
-                <ImageButton
-                    android:layout_width="130dp"
-                    android:layout_height="40dp"
-                    android:id="@+id/xbtnAceptarP"
-                    android:layout_column="1"
-                    android:background="@drawable/btnaceptar"
-                    android:layout_row="0" />
-            </TableRow>
 
             <TableRow
                 android:layout_width="match_parent"
@@ -162,6 +143,29 @@
                         android:id="@+id/xlblFecha"
                         android:gravity="center"
                         android:layout_column="1" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+                <ImageButton
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:id="@+id/xbtnCancelarP"
+                    android:background="@drawable/cancelar"
+                    android:layout_column="0"
+                    android:layout_row="0"
+                    android:layout_margin="20dp"/>
+
+                <ImageButton
+                    android:layout_width="30dp"
+                    android:layout_height="60dp"
+                    android:id="@+id/xbtnAceptarP"
+                    android:layout_column="1"
+                    android:background="@drawable/aceptar"
+                    android:layout_row="0"
+                    android:layout_margin="20dp"/>
             </TableRow>
 
         </TableLayout>
