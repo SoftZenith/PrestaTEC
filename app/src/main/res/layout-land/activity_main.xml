@@ -5,7 +5,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     tools:context="com.zenit.bryan.prestatec.MainActivity"
-    android:background="@drawable/fondo">
+    android:background="@drawable/fondo3">
 
     <LinearLayout
         android:layout_width="wrap_content"

@@ -7,7 +7,8 @@
     android:orientation="vertical"
     android:gravity="center"
     tools:context="com.zenit.bryan.prestatec.Tipos"
-    android:weightSum="1">
+    android:weightSum="1"
+    android:background="@drawable/fondo">
 
     <LinearLayout
         android:orientation="vertical"
