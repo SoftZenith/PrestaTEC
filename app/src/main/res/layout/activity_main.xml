@@ -1,65 +1,66 @@
 <?xml version="1.0" encoding="utf-8"?>
+
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
     tools:context="com.zenit.bryan.prestatec.MainActivity"
-    android:background="#408DD2">
+    android:background="@drawable/fondo"
+    android:weightSum="1"
+    android:orientation="vertical">
 
     <LinearLayout
+        android:orientation="vertical"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal">
-
+        android:layout_height="match_parent"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="1">
 
         <Button
-            android:layout_width="130dp"
-            android:layout_height="130dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
             android:text="Prestamos"
             android:textSize="18dp"
             android:id="@+id/btnPrestamos"
-            android:layout_margin="15dp"/>
+            android:layout_margin="15dp"
+            android:layout_weight="15" />
 
         <Button
-            android:layout_width="130dp"
-            android:layout_height="130dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Acerca de"
+            android:textSize="18dp"
+            android:id="@+id/btnAcerca"
+            android:layout_margin="15dp"
+            android:layout_weight="15" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Configuración"
+            android:textSize="18dp"
+            android:id="@+id/btnConfiguracion"
+            android:layout_margin="15dp"
+            android:layout_weight="15" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
             android:text="Contactos"
             android:textSize="18dp"
             android:id="@+id/btnContactos"
-            android:layout_margin="15dp" />
-
-    </LinearLayout>
-
-
-    <LinearLayout
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal">
-        <Button
-            android:layout_width="130dp"
-            android:layout_height="130dp"
-            android:text="Configuración"
-            android:textSize="13dp"
-            android:id="@+id/btnConfiguracion"
-            android:layout_margin="15dp" />
+            android:layout_margin="15dp"
+            android:layout_weight="15" />
 
         <Button
-            android:layout_width="130dp"
-            android:layout_height="130dp"
-            android:text="Acerca de"
-            android:textSize="15dp"
-            android:id="@+id/btnAcerca"
-            android:layout_margin="15dp"/>
-
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Salir"
+            android:textSize="18dp"
+            android:id="@+id/btnSalir"
+            android:layout_margin="20dp"
+            android:layout_weight="15" />
     </LinearLayout>
 
-    <Button
-        android:layout_width="280dp"
-        android:layout_height="70dp"
-        android:text="Salir"
-        android:textSize="20dp"
-        android:id="@+id/btnSalir"
-        android:layout_margin="20dp" />
 
 </LinearLayout>
