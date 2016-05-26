@@ -46,7 +46,8 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 AlertDialog.Builder alerta=new AlertDialog.Builder(MainActivity.this);
                 alerta.setMessage("Desarrollado por ZenitSoft\n" +
-                        "Brayan Jesus Gutierrez Esparza").setTitle("PrestaTEC").show();
+                        "Brayan Jesus Gutierrez Esparza" +
+                        "Julio Cesar Bautista Monsalvo").setTitle("PrestaTEC").show();
             }
         });
 
