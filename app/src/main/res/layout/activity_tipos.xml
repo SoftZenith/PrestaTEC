@@ -24,10 +24,10 @@
     </LinearLayout>
 
     <Button
-        android:layout_width="match_parent"
+        android:layout_width="146dp"
         android:layout_height="wrap_content"
         android:text="agregar"
-        android:layout_gravity="bottom"
+        android:layout_gravity="center_horizontal"
         android:id="@+id/xbtnAgregarT" />
 
 </LinearLayout>
